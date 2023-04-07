@@ -16,7 +16,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 import { UpdateComponentComponent } from './update-component/update-component.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +37,9 @@ import { UpdateComponentComponent } from './update-component/update-component.co
     MatButtonModule,
     MatToolbarModule,
     MatTableModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule,
+    HttpClientModule
 
   ],
   providers: [],

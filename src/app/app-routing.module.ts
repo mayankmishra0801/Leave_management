@@ -7,7 +7,7 @@ import { UpdateComponentComponent } from './update-component/update-component.co
 const routes: Routes = [
   {path:'',component:ApplyLaeaveComponent},
   {path:'viewleave',component:ViewLeaveComponent},
-  {path:'updateleave',component:UpdateComponentComponent}
+  {path:'updateleave/:id',component:UpdateComponentComponent}
 ];
 
 @NgModule({
